@@ -82,6 +82,7 @@ export class AngularMultiSelect implements OnInit, ControlValueAccessor, OnChang
     public lastScrolled: any;
     public lastRepaintY: any;
     public selectedListHeight: any;
+    public item: any;
 
     defaultSettings: DropdownSettings = {
         singleSelection: false,
